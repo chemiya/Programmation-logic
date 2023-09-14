@@ -244,15 +244,15 @@ for i=0;i<fichero.length;i++:
     for k=0;k<linea.length;k++:
         if linea[k]==" " or linea[k]=="\n":
             contador_espacios++
-            media_tamano_palabras=media_tamano_palabras+tamano_palabras
-            if(tamano_palabra>tamano_palabra_mas_larga):
-                tamano_palabra_mas_larga=tamano_palabra
+            media_tamano_palabras=media_tamano_palabras+tamano_palabra+1
+            if(tamano_palabra+1>tamano_palabra_mas_larga):
+                tamano_palabra_mas_larga=tamano_palabra+1
             tamano_palabra=0
         elif linea[k]==".":
             contador_puntos++
-            media_tamano_palabras=media_tamano_palabras+tamano_palabras
-            if(tamano_palabra>tamano_palabra_mas_larga):
-                tamano_palabra_mas_larga=tamano_palabra
+            media_tamano_palabras=media_tamano_palabras+tamano_palabra+1
+            if(tamano_palabra+1>tamano_palabra_mas_larga):
+                tamano_palabra_mas_larga=tamano_palabra+1
             tamano_palabra=0
         else:
             tamano_palabra++

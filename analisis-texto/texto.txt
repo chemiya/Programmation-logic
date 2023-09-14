@@ -1,0 +1,5 @@
+Este fichero tiene un texto para probar
+el contenido del programa. Este analiza
+el texto que se ha pedido leyendo caracter
+por caracter. AL final muestra los datos
+que ha visto
