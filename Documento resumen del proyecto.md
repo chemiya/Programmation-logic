@@ -23,7 +23,7 @@ numero_abaco_string=str(numero_abaco)
 for i=numero_abaco.length-1;i>=0;i--:
     numero_linea=int(numero_abaco[i]
     numero_bolas_izquierda=10-numero_linea
-    numero_rayas=15-numero_linea-numero_bolas_izquierda
+    numero_rayas=5
     linea_imprimir=""
     for k=0;k<numero_bolas_izquierda;k++:
         linea_imprimir=linea_imprimir+"O"
@@ -48,7 +48,7 @@ Pendiente de realizar, en c++
 
 <h3><li>Teclado t9</li></h3>
 <h4>Descripción del algoritmo</h4>
-El usuario introduce los numeros que pulsa. Esas pulsaciones se deben traducir a texto. 222443362 se traduce a chema
+El usuario introduce los numeros que pulsa. Esas pulsaciones se deben traducir a texto. 222-44-33-6-2 se traduce a chema
 
 
 <h4>Algoritmo</h4>
@@ -401,11 +401,16 @@ while finalizado==false
     else:
         jugador_actual="X"
 
+buscar_libre_columna(columna):
+    for i=0;i<tablero.length;i++:
+        if tablero[i,columna]=="":
+            return i
+
 
 comrpobar_ganador(tablero,jugador_actual):
     //comprobar en las filas
     contador_seguidos=0
-    fila_junta=""
+    
     for i=0;i<6;i++:
         for k=0;k<6;k++:
             if tablero[i,k]==jugador_actual:
@@ -635,7 +640,88 @@ Pendiente de realizar en Java
 
 
 
-<h3><li>entrevista</li></h3>
+<h3><li>Buscador de palabras en todos los sentidos</li></h3>
+<h4>Descripción del algoritmo</h4>
+Se desea implementar un buscador de una palabra en un texto. Se recibe una lista con palabras y la palabra a buscar. Se debe decir la posicion de inicio y final donde se encuentre la palabra en esa lista. La palabra se buscara horizontalmente de izquierda a derecha, horizontalmente de derecha a izquierda, verticalmente de arriba a abajo y verticalmente de abajo a arriba
+
+<h4>Algortimo</h4>
+
+```
+lista_palabras=entrada_teclado()
+palabra_buscar=entrada_teclado()
+longitud_palabra=palabra_buscar.length
+posiciones_encontradas=[]
+
+for i=0;i<lista_palabras.length;i++:
+    palabra_recorrer=lista_palabras[i]
+    for k=0;k<palabra_recorrer.length;k++:
+        if palabra_recorrer[k]==palabra_buscar[0]:  //si encuentro el primer caracter
+            encontrada=comprobar_encontrada_horizontal_hacia_derecha(i,k,palabra_recorrer)
+            if encontrada!=-1:
+                posiciones_encontradas.añadir(encontrada)
+            encontrada=comprobar_encontrada_horizontal_hacia_izquierda(i,k,palabra_recorrer)
+            if encontrada!=-1:
+                posiciones_encontradas.añadir(encontrada)
+            encontrada=comprobar_encontrada_vertical_hacia_abajo(i,k)
+            if encontrada!=-1:
+                posiciones_encontradas.añadir(encontrada)
+            encontrada=comprobar_encontrada_vertical_hacia_arriba(i,k)
+            if encontrada!=-1:
+                posiciones_encontradas.añadir(encontrada)
+            
+
+comprobar_encontrada_horizontal_hacia_derecha(fila,col,palabra_recorrer)
+    
+    contador_recorrer_palabra=1
+    for i=col+1;i<palabra_recorrer.length;i++:
+        if palabra_recorrer[i]!=palabra_buscar[contador_recorrer_palabra]:
+            return -1
+        contador_recorrer_palabra++
+    
+    array_posiciones=[fila,col],[fila,col+palabra.length-2]
+    return arrray_posiciones
+
+comprobar_encontrada_horizontal_hacia_izquierda(fila,col,palabra_recorrer)
+    igual=1
+    contador_recorrer_palabra=1
+    for i=col-1;i>=0;i--:
+        if palabra_recorrer[i]!=palabra_buscar[contador_recorrer_palabra]:
+            return -1
+        contador_recorrer_palabra++
+    
+    array_posiciones=[fila,col],[fila,col-palabra.length+2]
+    return arrray_posiciones
+
+comprobar_encontrada_vertical_hacia_abajo(fila,col)
+    igual=1
+    contador_recorrer_palabra=1
+    for i=fila+1;i<lista_palabras.length;i++:
+        palabra_revisar=lista_palabras[i]
+        if palabra_revisar[col]!=palabra_buscar[contador_recorrer_palabra]:
+             return -1
+        contador_recorrer_palabra++       
+ 
+    
+    array_posiciones=[fila,col],[fila+palabra.length-2,col]
+    return arrray_posiciones
+
+comprobar_encontrada_vertical_hacia_arriba(fila,col)
+    igual=1
+    contador_recorrer_palabra=1
+    for i=fila-1;i>=0;i--:
+        palabra_revisar=lista_palabras[i]
+        if palabra_revisar[col]!=palabra_buscar[contador_recorrer_palabra]:
+             return -1
+        contador_recorrer_palabra++       
+ 
+    
+    array_posiciones=[fila,col],[fila,col-palabra.length+2]
+    return arrray_posiciones
+
+
+```
+
+
 
 <h4>Estado</h4>
 Pendiente de realizar en Javascript
@@ -645,6 +731,8 @@ Pendiente de realizar en Javascript
 Este algoritmo de ordenacion utiliza un pivote. Se comparan el resto de elementos con el pivote. Si son menores, se van a un array a la izquierda, si son mayores se van a un array a la derecha. Se aplica el mismo procedimiento sobre el array de la izquierda y el de la derecha y se juntan el array de la izquierda con el pivote con el array de la derecha. Se finaliza cuando el array sea de un solo elemento.
 
 <h4>Algortimo</h4>
+
+
 
 
 ```

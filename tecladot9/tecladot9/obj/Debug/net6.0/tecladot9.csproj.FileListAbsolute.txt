@@ -1,0 +1,15 @@
+C:\Users\chema\Documents\GitHub\PR-31-Logic\tecladot9\tecladot9\bin\Debug\net6.0\tecladot9.exe
+C:\Users\chema\Documents\GitHub\PR-31-Logic\tecladot9\tecladot9\bin\Debug\net6.0\tecladot9.deps.json
+C:\Users\chema\Documents\GitHub\PR-31-Logic\tecladot9\tecladot9\bin\Debug\net6.0\tecladot9.runtimeconfig.json
+C:\Users\chema\Documents\GitHub\PR-31-Logic\tecladot9\tecladot9\bin\Debug\net6.0\tecladot9.dll
+C:\Users\chema\Documents\GitHub\PR-31-Logic\tecladot9\tecladot9\bin\Debug\net6.0\tecladot9.pdb
+C:\Users\chema\Documents\GitHub\PR-31-Logic\tecladot9\tecladot9\obj\Debug\net6.0\tecladot9.csproj.AssemblyReference.cache
+C:\Users\chema\Documents\GitHub\PR-31-Logic\tecladot9\tecladot9\obj\Debug\net6.0\tecladot9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chema\Documents\GitHub\PR-31-Logic\tecladot9\tecladot9\obj\Debug\net6.0\tecladot9.AssemblyInfoInputs.cache
+C:\Users\chema\Documents\GitHub\PR-31-Logic\tecladot9\tecladot9\obj\Debug\net6.0\tecladot9.AssemblyInfo.cs
+C:\Users\chema\Documents\GitHub\PR-31-Logic\tecladot9\tecladot9\obj\Debug\net6.0\tecladot9.csproj.CoreCompileInputs.cache
+C:\Users\chema\Documents\GitHub\PR-31-Logic\tecladot9\tecladot9\obj\Debug\net6.0\tecladot9.dll
+C:\Users\chema\Documents\GitHub\PR-31-Logic\tecladot9\tecladot9\obj\Debug\net6.0\refint\tecladot9.dll
+C:\Users\chema\Documents\GitHub\PR-31-Logic\tecladot9\tecladot9\obj\Debug\net6.0\tecladot9.pdb
+C:\Users\chema\Documents\GitHub\PR-31-Logic\tecladot9\tecladot9\obj\Debug\net6.0\tecladot9.genruntimeconfig.cache
+C:\Users\chema\Documents\GitHub\PR-31-Logic\tecladot9\tecladot9\obj\Debug\net6.0\ref\tecladot9.dll

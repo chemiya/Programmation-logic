@@ -1,0 +1,15 @@
+C:\Users\chema\Documents\GitHub\PR-31-Logic\expresiones-equilibradas\bin\Debug\net6.0\expresiones-equilibradas.exe
+C:\Users\chema\Documents\GitHub\PR-31-Logic\expresiones-equilibradas\bin\Debug\net6.0\expresiones-equilibradas.deps.json
+C:\Users\chema\Documents\GitHub\PR-31-Logic\expresiones-equilibradas\bin\Debug\net6.0\expresiones-equilibradas.runtimeconfig.json
+C:\Users\chema\Documents\GitHub\PR-31-Logic\expresiones-equilibradas\bin\Debug\net6.0\expresiones-equilibradas.dll
+C:\Users\chema\Documents\GitHub\PR-31-Logic\expresiones-equilibradas\bin\Debug\net6.0\expresiones-equilibradas.pdb
+C:\Users\chema\Documents\GitHub\PR-31-Logic\expresiones-equilibradas\obj\Debug\net6.0\expresiones-equilibradas.csproj.AssemblyReference.cache
+C:\Users\chema\Documents\GitHub\PR-31-Logic\expresiones-equilibradas\obj\Debug\net6.0\expresiones-equilibradas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chema\Documents\GitHub\PR-31-Logic\expresiones-equilibradas\obj\Debug\net6.0\expresiones-equilibradas.AssemblyInfoInputs.cache
+C:\Users\chema\Documents\GitHub\PR-31-Logic\expresiones-equilibradas\obj\Debug\net6.0\expresiones-equilibradas.AssemblyInfo.cs
+C:\Users\chema\Documents\GitHub\PR-31-Logic\expresiones-equilibradas\obj\Debug\net6.0\expresiones-equilibradas.csproj.CoreCompileInputs.cache
+C:\Users\chema\Documents\GitHub\PR-31-Logic\expresiones-equilibradas\obj\Debug\net6.0\expresiones-equilibradas.dll
+C:\Users\chema\Documents\GitHub\PR-31-Logic\expresiones-equilibradas\obj\Debug\net6.0\refint\expresiones-equilibradas.dll
+C:\Users\chema\Documents\GitHub\PR-31-Logic\expresiones-equilibradas\obj\Debug\net6.0\expresiones-equilibradas.pdb
+C:\Users\chema\Documents\GitHub\PR-31-Logic\expresiones-equilibradas\obj\Debug\net6.0\expresiones-equilibradas.genruntimeconfig.cache
+C:\Users\chema\Documents\GitHub\PR-31-Logic\expresiones-equilibradas\obj\Debug\net6.0\ref\expresiones-equilibradas.dll
