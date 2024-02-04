@@ -1,8 +1,23 @@
-<h1>Documento resumen del proyecto para crear la aplicación "Foodeador"</h1>
+<h1>Documento resumen del proyecto para mejorar la lógica de programación</h1>
 
 <ol>
 <h2><li>Resumen del proyecto</li></h2>
-<p></p>
+<p>Este proyecto consiste en diferentes ejercicios en diferentes lenguajes para mejorar la lógica de programación. Para ello, se proponen diferentes problemas y en primer lugar se planteará un algoritmo en pseudocódigo que lo resuelva. A continuación se implementa el algoritmo propuesto en código. Entre los ejercicios planteados se pueden encontrar juegos como el cuatro en línea y algoitmos de búsqueda como quicksort.</p>
+
+
+
+
+<h2><li>Tecnologías utilizadas</li></h2>
+<p>Para la resolución de los diferentes ejercicios se utilizarán las siguientes tecnologías:</p>
+<ul>
+<li>Java</li>
+<li>Python</li>
+<li>C</li>
+<li>Javascript</li>
+<li>C++</li>
+<li>PHP</li>
+<li>C#</li>
+</ul>
 
 
 
@@ -11,10 +26,9 @@
 <ol>
 <h3><li>Abaco</li></h3>
 <h4>Descripción del algoritmo</h4>
-El abaco contiene 10 lineas. La primera de arriba son las unidades y la ultima millares de millon. Cada linea tiene 10 bolas. Las bolas que se situen a la derecha representan el numero de unidades deseadas en la medida correspondiente a la linea. 
+El abaco contiene 10 líneas. La primera de arriba son las unidades y la última millares de millón. Cada línea tiene 10 bolas. Las bolas que se situen a la derecha representan el numero de unidades deseadas en la medida correspondiente a la línea. 
 
 <h4>Algoritmo</h4>
-
 
 ```
 numero_abaco=entrada_teclado()
@@ -37,18 +51,21 @@ for i=numero_abaco.length-1;i>=0;i--:
     print(numero_linea)
 
 
-
-
 ```
 
-<h4>Estado</h4>
-Pendiente de realizar, en c++
 
 
 
-<h3><li>Teclado t9</li></h3>
+
+
+
+
+
+
+
+<h3><li>Teclado T9</li></h3>
 <h4>Descripción del algoritmo</h4>
-El usuario introduce los numeros que pulsa. Esas pulsaciones se deben traducir a texto. 222-44-33-6-2 se traduce a chema
+El usuario introduce los números que pulsa. Esas pulsaciones se deben traducir a texto segun la correspondencia entre los números y las letras de un teclado T9. Por ejemplo, la entrada de "222-44-33-6-2" se traduce a chema.
 
 
 <h4>Algoritmo</h4>
@@ -136,13 +153,13 @@ buscar_letra(numero, repeticiones):
 
 ```
 
-<h4>Estado</h4>
-Pendiente de realizar, en c#
+
+
 
 
 <h3><li>Lanzar moneda trucada</li></h3>
 <h4>Descripción del algoritmo</h4>
-Se tiene una moneda en la que la probabilidad de que salga cara se puede modificar. El usuario introduce el numero de experimentos que quiere realizar y las probabilidades de que salga cara y cruz. En cada experimento se lanza la moneda hasta que salga cara. En ese momento se pasa al siguiente experimento. Al final se muestra el numero maximo de lanzamientos entre todos los experimentos, es decir el numero maximo de cruces que han salido. Por ejemplo, el numero maximo de cruces en un experimento han sido de 7 cruces. Tambien se debe mostrar cuantos experimentos hay con un numero determinado de cruces antes de la cara. Por ejemplo, se han encontrado 14 experimentos con 3 cruces, 21 experimentos con 4 cruces.
+Se tiene una moneda en la que la probabilidad de que salga cara se puede modificar. El usuario introduce el numero de experimentos que quiere realizar y las probabilidades de que salga cara y cruz. En cada experimento se lanza la moneda hasta que salga cara. En ese momento se pasa al siguiente experimento. Al final se muestra el numero máximo de lanzamientos entre todos los experimentos, es decir el numero máximo de cruces que han salido. Por ejemplo, el numero máximo de cruces en un experimento han sido de 7 cruces. Tambien se debe mostrar cuantos experimentos hay con un numero determinado de cruces antes de la cara. Por ejemplo, se han encontrado 14 experimentos con 3 cruces, 21 experimentos con 4 cruces.
 
 
 <h4>Algoritmo</h4>
@@ -180,12 +197,13 @@ lanzar_moneda(probabilidad_cara):
 
 
 ```
-<h4>Estado</h4>
-Hecho en Python
+
+
+
 
 <h3><li>Primos gemelos</li></h3>
 <h4>Descripción del algoritmo</h4>
-Los primos gemelos son numeros primos que difieren en 2 unidades. Por lo tanto, se recorren los numeros menores que el limite introducido comprobando por cada numero si es numero y a la vez comprobando si el numero 2 unidades mayor en primo. El 1 no se considera primo, el 2 y el 3 si son primos. Los multiplos de 2 y 3 no son primos. Un numero es primo si solo se puede dividir entre 1 o si mismo. Comenzando un bucle en 5, se verifica si el numero es divisible entre algun numero entre 5 y la raiz cuadrada del numero.
+Los primos gemelos son numeros primos que difieren en 2 unidades. Por lo tanto, se recorren los numeros menores que el limite introducido comprobando por cada número si es primo y a la vez comprobando si el número 2 unidades mayor en primo. El 1 no se considera primo, el 2 y el 3 si son primos. Los múltiplos de 2 y 3 no son primos. Un número es primo si solo se puede dividir entre 1 o si mismo. Comenzando un bucle en 5, se verifica si el número es divisible entre algún número entre 5 y la raiz cuadrada del número.
 
 <h4>Algoritmo</h4>
 
@@ -218,13 +236,12 @@ es_primo(numero):
 
 ```
 
-<h4>Estado</h4>
-Pendiente de realizar, en Php
 
 
-<h3><li>Analisis de texto</li></h3>
+
+<h3><li>Análisis de texto</li></h3>
 <h4>Descripción del algoritmo</h4>
-Analizar un texto obteniendo el numero total de palabras, la longitud media de las palabras, el numero de oraciones y el tamano de la palabra mas larga. Para ello utilizar un unico bucle.
+Analizar un texto obteniendo el número total de palabras, la longitud media de las palabras, el número de oraciones y el tamaño de la palabra más larga. Para ello, utilizar un unico bucle.
 
 <h4>Algoritmo</h4>
 
@@ -263,13 +280,12 @@ media_tamano_palabras=media_tamano_palabras/(contador_espacios+contador_puntos)
 
 ```
 
-<h4>Estado</h4>
-Pendiente de realizar, en c
 
 
-<h3><li>Convertir numero en decimal a binario</li></h3>
+
+<h3><li>Convertir número en decimal a binario</li></h3>
 <h4>Descripción del algoritmo</h4>
-Se divide el numero decimal entre 2 y el valor del resto se va almacenando en una lista. Si el cociente obtenido es mayor que 0, repite el proceso diviendo entre 2 y almacenando el resto. Con el nuevo cociente se repite el proceso. Finalmente se invierte la lista
+Se divide el número decimal entre 2 y el valor del resto se va almacenando en una lista. Si el cociente obtenido es mayor que 0, repite el proceso diviendo entre 2 y almacenando el resto. Con el nuevo cociente se repite el proceso. Finalmente se invierte la lista.
 
 
 
@@ -310,8 +326,7 @@ convertir_lista(lista):
     return cadena_lista
 ```
 
-<h4>Estado</h4>
-Pendiente de realizar, en c++
+
 
 
 
@@ -319,7 +334,7 @@ Pendiente de realizar, en c++
 
 <h3><li>Ahorcado</li></h3>
 <h4>Descripción del algoritmo</h4>
-En este juego, se selecciona una palabra aleatoria. El usuario introduce una letra, si esta en la palabra se muestra la palabra con las letra marcada, si no esta se resta un intento. Tiene 6 intentos.
+En este juego, se selecciona una palabra aleatoria. El usuario introduce una letra, si está en la palabra se muestra la palabra con la letra marcada, si no está, se resta un intento. Tiene 6 intentos.
 
 
 <h4>Algortimo</h4>
@@ -367,12 +382,11 @@ obtener_palabra_aleatoria():
 
 ```
 
-<h4>Estado</h4>
-Hecho en Python
 
-<h3><li>Cuatro en linea</li></h3>
+
+<h3><li>Cuatro en línea</li></h3>
 <h4>Descripción del algoritmo</h4>
-En este juego dos jugadores van introduciendo fichas por la parte de arriba del tablero. Gana el que conecte 4 en fila, columna o diagonal
+En este juego dos jugadores van introduciendo fichas por la parte de arriba del tablero. Gana el que conecte 4 en fila, columna o diagonal.
 <h4>Algortimo</h4>
 
 ```
@@ -448,12 +462,11 @@ comrpobar_ganador(tablero,jugador_actual):
 
 ```
 
-<h4>Estado</h4>
-Pendiente de hacer en Java
+
 
 <h3><li>Batalla naval</li></h3>
 <h4>Descripción del algoritmo</h4>
-Los usuarios tienen dos barcos cada uno. Deben definir las coordenadas donde estan la punta de cada barco y el final de cada barco. Los usuarios van diciendo coordenadas y se va comprobando si tocan barco o caen en agua. Un barco se hunde, si el usuario dice todas las coordenadas del barco. Gana el jugador que hunda los dos barcos del oponente. Los barcos tienen una longitud de 3 casillas.
+Los usuarios tienen dos barcos cada uno. Deben definir las coordenadas donde están la punta de cada barco y el final de cada barco. Los usuarios van diciendo coordenadas y se va comprobando si tocan barco o caen en agua. Un barco se hunde, si el usuario dice todas las coordenadas del barco. Gana el jugador que hunda los dos barcos del oponente. Los barcos tienen una longitud de 3 casillas.
 
 <h4>Algoritmo</h4>
 
@@ -559,90 +572,13 @@ class Barco:
 
 ```
 
-<h4>Estado</h4>
-Pendiente de realizar en Java
 
-
-<h3><li>2048</li></h3>
-<h4>Descripción del algoritmo</h4>
-En este juego, se tiene una cuadricula de 4x4. El usuario introduce la direccion en que quiere mover los numeros. Si al mover los numeros, se encuentran con otro numero de mismo valor, los numeros se juntan en una casilla con el valor de la suma. AL inicio hay dos casillas con numeros 2. Se termina el juego si el tablero esta lleno y no puedes realizar ningun movimiento que una dos casillas.
-
-
-
-<h4>Algortimo</h4>
-
-```
-
-tablero=[[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
-continuar_juego=true
-
-while continuar_juego==true:
-    movimiento=entrada_teclado()
-
-    if movimiento=="derecha":
-
-
-        for i=0;i<tablero.length;i++:
-            for j=0;j<tablero[0].length-1;j++:
-                if tablero[i,j]==tablero[i,j+1]:
-                    tablero[i,j+1]=tablero[i,j]*2
-                    desplazar=j
-                    while desplazar>0:
-                        tablero[i,desplazar]=tablero[i,desplazar-1]
-                        desplazar--
-
-
-        
-        for i=tablero.length-1;i>=0;i--:        //recorro filas
-            celdas_mover_fila=0
-            for j=tablero[0].length-1;j>=0;j--:     //recorro columnas de la fila
-                if tablero[i,j]==0:
-                    celdas_mover++
-        
-            mover_celdas_fila(i,celdas_mover)
-
-    if movimiento=="abajo":
-        
-        for i=tablero[0].length-1;i>=0;i--:     //recorro columnas
-            celdas_mover_columna=0
-            for j=tablero.length-1;j>=0;j--:        //recorro filas de la columna
-                if tablero[j,i]==0:
-                    celdas_mover++
-        
-            mover_celdas_columna(i,celdas_mover)
-                
-
-mover_celdas_fila(fila,celdas_mover):
-    for i=tablero.length[0]-1;i>=0;i--:     //recorro columnas de la fila
-        tablero[fila,i]=tablero[fila,i-celdas_mover]
-
-mover_celdas_columna(columna,celdas_mover):
-    for i=tablero.length-1;i>=0;i--:        //recorro filas de la columna
-        tablero[i,columna]=tablero[i-celdas_mover,columna]
-
-
-introducir_dos_aleatorio():
-    vacias=[]
-    for i=0;i<tablero.length;i++:
-        for j=0;j<tablero[0].length;j++:
-            if tablero[i,j]==0:
-                vacias.anadir_elemento([i,j])
-
-    valor_aleatorio=generar_aleatorio()
-    tablero[vacias[aleatorio]]=2
-
-
-
-
-```
-<h4>Estado</h4>
-Pendiente de realizar en Java
 
 
 
 <h3><li>Buscador de palabras en todos los sentidos</li></h3>
 <h4>Descripción del algoritmo</h4>
-Se desea implementar un buscador de una palabra en un texto. Se recibe una lista con palabras y la palabra a buscar. Se debe decir la posicion de inicio y final donde se encuentre la palabra en esa lista. La palabra se buscara horizontalmente de izquierda a derecha, horizontalmente de derecha a izquierda, verticalmente de arriba a abajo y verticalmente de abajo a arriba
+Se desea implementar un buscador de una palabra en un texto. Se recibe una lista con palabras y la palabra a buscar. Se debe decir la posicion de inicio y final donde se encuentre la palabra en esa lista. La palabra se buscará horizontalmente de izquierda a derecha, horizontalmente de derecha a izquierda, verticalmente de arriba a abajo y verticalmente de abajo a arriba.
 
 <h4>Algortimo</h4>
 
@@ -723,8 +659,7 @@ comprobar_encontrada_vertical_hacia_arriba(fila,col)
 
 
 
-<h4>Estado</h4>
-Pendiente de realizar en Javascript
+
 
 <h3><li>Quicksort</li></h3>
 <h4>Descripción del algoritmo</h4>
@@ -759,15 +694,12 @@ quicksort(array):
 
 ```
 
-<h4>Estado</h4>
-Pendiente de realizar en Javascript
-
-https://www.youtube.com/watch?v=DYmTpUfcyT8&t=317s
 
 
-<h3><li>Busqueda binaria</li></h3>
+
+<h3><li>Búsqueda binaria</li></h3>
 <h4>Descripción del algoritmo</h4>
-Este algoritmo busca un numero dentro de array ordenado. Busca la posicion del medio del array. Si el valor a buscar es menor que el valor del medio, se coge el punto medio del array de la izquierda y se aplica el mismo procedimiento. Si el valor a buscar es mayor que el valor del medio, se coge el punto medio del array de la derecha. Se aplica lo mismo con el nuevo array. Se termina si se encuentra el numero en uno de los elementos del medio o si la variable que almacena el elemento de la izquierda del array que se comprueba es mayor que el elemento de la derecha del array que se comprueba.
+Este algoritmo busca un número dentro de array ordenado. Busca la posición del medio del array. Si el valor a buscar es menor que el valor del medio, se coge el punto medio del array de la izquierda y se aplica el mismo procedimiento. Si el valor a buscar es mayor que el valor del medio, se coge el punto medio del array de la derecha. Se aplica lo mismo con el nuevo array. Se termina si se encuentra el número en uno de los elementos del medio o si la variable que almacena el elemento de la izquierda del array que se comprueba es mayor que el elemento de la derecha del array que se comprueba.
 
 <h4>Algoritmo</h4>
 
@@ -794,16 +726,12 @@ busqueda_binaria(array,valor_buscar):
 
 
 ```
-<h4>Estado</h4>
-Pendiente de realizar en Javascript
-
-https://www.youtube.com/watch?v=HQQno0ckmgY&list=PLJW2tvooj-C7RmUHi5NB0EN1mAOKCj9ww
 
 
 
 <h3><li>Eliminar caracteres</li></h3>
 <h4>Descripción del algoritmo</h4>
-Se reciben dos cadenas como entrada. De salida se devolveran dos cadenas, en la primera se incluyen los caracteres que estan en la primera pero no en la segunda. En la segunda se incluyen los caracteres que estan en la segunda y no en la primera
+Se reciben dos cadenas como entrada. De salida se devolverán dos cadenas, en la primera se incluyen los caracteres que están en la primera pero no en la segunda. En la segunda se incluyen los caracteres que están en la segunda y no en la primera.
 
 <h4>Algortimo</h4>
 
@@ -831,12 +759,11 @@ for i=0;i<cadena2.length;i++:
 
 ```
 
-<h4>Estado</h4>
-Pendiente de realizar en c++
+
 
 <h3><li>Expresiones equilibradas</li></h3>
 <h4>Descripción del algoritmo</h4>
-Comprobar que en una expresion los corchetes, llaves y parentesis se abren y cierran en forma correcta
+Comprobar que en una expresión los corchetes, llaves y paréntesis se abren y cierran en forma correcta.
 <h4>Algortimo</h4>
 
 ```
@@ -860,8 +787,7 @@ else:
 
 
 ```
-<h4>Estado</h4>
-Pendiente de realizar en c#
+
 
 <h3><li>Torres de hanoi</li></h3>
 <h4>Descripcion del algoritmo</h4>
@@ -885,8 +811,7 @@ hanoi(discos,origen,destino,auxiliar):
 
 ```
 
-<h4>Estado</h4>
-Pendiente de realizar en php
+
 
 
 
@@ -898,18 +823,6 @@ Pendiente de realizar en php
 
 
 
-<h2><li>Tecnologías utilizadas</li></h2>
-<p>Se van a utilizar las siguientes tecnologías:</p>
-<ul>
-<li>Java</li>
-<li>Python</li>
-<li>C</li>
-<li>Javascript</li>
-<li>Typescript</li>
-<li>C++</li>
-<li>PHP</li>
-<li>C#</li>
-</ul>
 
 
 
@@ -918,16 +831,6 @@ Pendiente de realizar en php
 
 
 
-<h2><li>Estructura del backend</li></h2>
-
-<p></p>
-
-
-
-
-
-
-<h2><li>Estructura del frontend</li></h2>
 
 
 
@@ -941,7 +844,6 @@ Repositorio Github:
 
 
 <h2><li>Conclusiones</li></h2>
-He aprendido como crear una API REST con .net y como gestionar con ella los datos de una base de datos MySQL. He seguido aplicando y ampliando los conocimientos que tenía sobre Vue y SCSS.
-
+He mejorado en la manera de resolver diferentes problemas de programación, planteando de manera inicial en pseudocódigo como resolver el problema y después plasmándolo en código. 
 
 </ol>
