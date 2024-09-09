@@ -840,7 +840,9 @@ hanoi(discos,origen,destino,auxiliar):
 
 
 <h2><li>Resultado final: vídeo youtube y repositorio</li></h2>
-Repositorio Github:
+Repositorio Github: https://github.com/chemiya/Programmation-logic
+
+Video Youtube: https://youtu.be/5p2x525HV3s
 
 
 <h2><li>Conclusiones</li></h2>
